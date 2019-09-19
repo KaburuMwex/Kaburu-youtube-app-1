@@ -1,0 +1,47 @@
+
+/*
+font-family: 'Anton', sans-serif;
+font-family: 'Saira Stencil One', cursive;
+*/
+body{
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+}
+.welcome{
+    padding: 10px;
+    font-family: 'Saira Stencil One', cursive;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+.input{
+    width: 300px !important;
+    background: #006666 !important;
+    color: aliceblue !important;
+}
+.img-container{
+    position:relative;
+    overflow:hidden;
+}
+.card-img-top{
+    transition:all 1s linear;
+}
+.img-container:hover .card-img-top{
+    transform:scale(1.2);
+    z-index: 2 !important;
+    offset-distance: 10px;
+    display: block;
+}
+
+.searchbar{
+    background: #006666 !important;
+    width: 100%;
+    border-radius: 10px;
+    
+
+}
+.videodetail{
+    margin-top: 40px;
+}
+.videolist{
+    margin-top: 40px;
+}
